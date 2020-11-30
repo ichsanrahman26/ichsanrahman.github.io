@@ -10097,12 +10097,28 @@ header.masthead {
   padding-top: 16rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: url("jumbotron1.png");
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: contain;
+  margin-bottom: -70px;
 }
 
+
+@media (min-width: 992px) { 
+
+header.masthead {
+  padding-top: 16rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url("jumbotron1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-bottom: 0px;
+}
+
+}
 
 header.masthead h1 {
   font-size: 2.25rem;
